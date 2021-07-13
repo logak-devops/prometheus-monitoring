@@ -8,3 +8,7 @@ gpgcheck=1
 gpgkey=https://packages.grafana.com/gpg.key
 sslverify=1
 sslcacert=/etc/pki/tls/certs/ca-bundle.crt
+
+#yum install grafana -y
+#service grafana-server start
+#service grafana-server status

@@ -1,6 +1,5 @@
-sudo apt-get install -y adduser libfontconfig1
-wget https://dl.grafana.com/oss/release/grafana_7.3.4_amd64.deb
-sudo dpkg -i grafana_7.3.4_amd64.deb
+wget https://dl.grafana.com/oss/release/grafana-8.0.0-beta3.linux-amd64.tar.gz
+tar -zxvf grafana-8.0.0-beta3.linux-amd64.tar.gz
 sudo systemctl daemon-reload
 sudo systemctl start grafana-server
 sudo systemctl status grafana-server
